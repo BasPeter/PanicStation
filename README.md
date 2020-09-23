@@ -4,9 +4,9 @@ This is far from a finished game, but rather a small concept. Since it shows my 
 
 ## Dependencies for Running Locally
 
-SDL2
-SDL2 TTF
-SDL2 Images
+* SDL2
+* SDL2 TTF
+* SDL2 Images
 
 ## Basic Build Instructions
 This project was written using Xcode
