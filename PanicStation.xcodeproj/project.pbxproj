@@ -53,6 +53,7 @@
 		5ABCB98C251B32680000856E /* BG_Color.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BG_Color.jpg; sourceTree = "<group>"; };
 		5AEA61CC251B3CB8005A8573 /* BG_Height_Map.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BG_Height_Map.jpg; sourceTree = "<group>"; };
 		5AEA61D1251B7962005A8573 /* Varela regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Varela regular.ttf"; sourceTree = "<group>"; };
+		5AEA61D3251B9252005A8573 /* CmakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CmakeLists.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +116,7 @@
 				5A8E404125162E66006311AA /* main.cpp */,
 				5A8E405F2516A928006311AA /* Game */,
 				5A77D890251897850096A7A7 /* GameObjects */,
+				5AEA61D3251B9252005A8573 /* CmakeLists.txt */,
 			);
 			path = PanicStation;
 			sourceTree = "<group>";
