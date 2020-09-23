@@ -7,24 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A2E3033251A496F00CC1051 /* SDL2_ttf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A2E3032251A496F00CC1051 /* SDL2_ttf.framework */; };
+		5A44EF26251B27A70067B677 /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8E404D25163074006311AA /* SDL2_image.framework */; };
+		5A77D88F251897810096A7A7 /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A77D88D251897810096A7A7 /* Node.cpp */; };
 		5A8E404225162E66006311AA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A8E404125162E66006311AA /* main.cpp */; };
+		5A8E40512516338C006311AA /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8E404925162E8A006311AA /* SDL2.framework */; };
+		5A8E40542516A350006311AA /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A8E40522516A350006311AA /* Game.cpp */; };
+		5A8E40582516A36D006311AA /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A8E40562516A36D006311AA /* Controller.cpp */; };
+		5A8E405B2516A37B006311AA /* Renderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A8E40592516A37B006311AA /* Renderer.cpp */; };
+		5AEA61CA251B3319005A8573 /* BG_Color.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5ABCB98C251B32680000856E /* BG_Color.jpg */; };
+		5AEA61CD251B3CB8005A8573 /* BG_Height_Map.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5AEA61CC251B3CB8005A8573 /* BG_Height_Map.jpg */; };
+		5AEA61D2251B79C8005A8573 /* Varela regular.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5AEA61D1251B7962005A8573 /* Varela regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		5A8E403C25162E66006311AA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 12;
+			dstPath = Assets;
+			dstSubfolderSpec = 16;
 			files = (
+				5AEA61D2251B79C8005A8573 /* Varela regular.ttf in CopyFiles */,
+				5AEA61CD251B3CB8005A8573 /* BG_Height_Map.jpg in CopyFiles */,
+				5AEA61CA251B3319005A8573 /* BG_Color.jpg in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5A2E3032251A496F00CC1051 /* SDL2_ttf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_ttf.framework; path = ../../../../../Library/Frameworks/SDL2_ttf.framework; sourceTree = "<group>"; };
+		5A77D88D251897810096A7A7 /* Node.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Node.cpp; sourceTree = "<group>"; };
+		5A77D88E251897810096A7A7 /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
 		5A8E403E25162E66006311AA /* PanicStation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PanicStation; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A8E404125162E66006311AA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5A8E404925162E8A006311AA /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
+		5A8E404D25163074006311AA /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = ../../../../../Library/Frameworks/SDL2_image.framework; sourceTree = "<group>"; };
+		5A8E4050251632EE006311AA /* PanicStation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PanicStation.entitlements; sourceTree = "<group>"; };
+		5A8E40522516A350006311AA /* Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		5A8E40532516A350006311AA /* Game.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
+		5A8E40562516A36D006311AA /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
+		5A8E40572516A36D006311AA /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
+		5A8E40592516A37B006311AA /* Renderer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Renderer.cpp; sourceTree = "<group>"; };
+		5A8E405A2516A37B006311AA /* Renderer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Renderer.hpp; sourceTree = "<group>"; };
+		5ABCB98C251B32680000856E /* BG_Color.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BG_Color.jpg; sourceTree = "<group>"; };
+		5AEA61CC251B3CB8005A8573 /* BG_Height_Map.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BG_Height_Map.jpg; sourceTree = "<group>"; };
+		5AEA61D1251B7962005A8573 /* Varela regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Varela regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,17 +60,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A44EF26251B27A70067B677 /* SDL2_image.framework in Frameworks */,
+				5A2E3033251A496F00CC1051 /* SDL2_ttf.framework in Frameworks */,
+				5A8E40512516338C006311AA /* SDL2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A44EF25251B26B00067B677 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5AEA61D1251B7962005A8573 /* Varela regular.ttf */,
+				5ABCB98C251B32680000856E /* BG_Color.jpg */,
+				5AEA61CC251B3CB8005A8573 /* BG_Height_Map.jpg */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		5A77D890251897850096A7A7 /* GameObjects */ = {
+			isa = PBXGroup;
+			children = (
+				5A77D88D251897810096A7A7 /* Node.cpp */,
+				5A77D88E251897810096A7A7 /* Node.hpp */,
+			);
+			path = GameObjects;
+			sourceTree = "<group>";
+		};
 		5A8E403525162E66006311AA = {
 			isa = PBXGroup;
 			children = (
 				5A8E404025162E66006311AA /* PanicStation */,
 				5A8E403F25162E66006311AA /* Products */,
+				5A8E404825162E8A006311AA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +108,52 @@
 		5A8E404025162E66006311AA /* PanicStation */ = {
 			isa = PBXGroup;
 			children = (
+				5A44EF25251B26B00067B677 /* Assets */,
+				5A8E405D2516A38A006311AA /* Renderer */,
+				5A8E405E2516A392006311AA /* Controller */,
+				5A8E4050251632EE006311AA /* PanicStation.entitlements */,
 				5A8E404125162E66006311AA /* main.cpp */,
+				5A8E405F2516A928006311AA /* Game */,
+				5A77D890251897850096A7A7 /* GameObjects */,
 			);
 			path = PanicStation;
+			sourceTree = "<group>";
+		};
+		5A8E404825162E8A006311AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A2E3032251A496F00CC1051 /* SDL2_ttf.framework */,
+				5A8E404D25163074006311AA /* SDL2_image.framework */,
+				5A8E404925162E8A006311AA /* SDL2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A8E405D2516A38A006311AA /* Renderer */ = {
+			isa = PBXGroup;
+			children = (
+				5A8E40592516A37B006311AA /* Renderer.cpp */,
+				5A8E405A2516A37B006311AA /* Renderer.hpp */,
+			);
+			path = Renderer;
+			sourceTree = "<group>";
+		};
+		5A8E405E2516A392006311AA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5A8E40562516A36D006311AA /* Controller.cpp */,
+				5A8E40572516A36D006311AA /* Controller.hpp */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5A8E405F2516A928006311AA /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				5A8E40522516A350006311AA /* Game.cpp */,
+				5A8E40532516A350006311AA /* Game.hpp */,
+			);
+			path = Game;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +213,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A8E405B2516A37B006311AA /* Renderer.cpp in Sources */,
 				5A8E404225162E66006311AA /* main.cpp in Sources */,
+				5A8E40582516A36D006311AA /* Controller.cpp in Sources */,
+				5A8E40542516A350006311AA /* Game.cpp in Sources */,
+				5A77D88F251897810096A7A7 /* Node.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,9 +336,14 @@
 		5A8E404625162E66006311AA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PanicStation/PanicStation.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = D9LBA4DP8X;
 				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				HEADER_SEARCH_PATHS = "";
+				OTHER_CODE_SIGN_FLAGS = "--deep";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -248,9 +351,14 @@
 		5A8E404725162E66006311AA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PanicStation/PanicStation.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = D9LBA4DP8X;
 				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				HEADER_SEARCH_PATHS = "";
+				OTHER_CODE_SIGN_FLAGS = "--deep";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
