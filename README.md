@@ -2,6 +2,8 @@
 
 This is far from a finished game, but rather a small concept. Since it shows my ability to code using C++ I think it is sufficient as the Capstone project for the C++ NanoDegree
 
+<img src="PanicStation.gif"/>
+
 In this game you have to build a trainline from the bottom of an island to the top.
 This trainline consist of nodes. Once you reach the goal the program closes and you see the cost of your trainline.
 
