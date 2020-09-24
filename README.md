@@ -12,7 +12,14 @@ Building a node costs money (of course), the amount of money is based on the hei
 
 ## Files and Classes
 
+The application consists of 3 primary classes: Game, Renderer and Controller.
+They are initialized in the main function.
 
+The game class controls the game loop and time control.
+The renderer controls everything drawn to the screen
+The controller handles user input and corresponding changes to the game objects
+
+The nodes placed by the player are instances of class Node, stored in an vector of shared pointers inside Game.
 
 ## Dependencies for Running Locally
 * cmake >= 3.7
@@ -41,6 +48,13 @@ Go to PanicStation Folder
 3. cmake ..
 4. make
 
+## Running the game
+
+1. cd build
+2. ./PanicStation
+
+When running the application a window should pop-up, any textual feedback from the game is printed to the console.
+
 ## Udacity Meeting Specifications
 
 ### README
@@ -66,4 +80,9 @@ Go to PanicStation Folder
  * All class member functions document their effects, either through function names, comments, or formal documentation. Member functions do not change program state in undocumented ways.
  * Appropriate data and functions are grouped into classes. Member data that is subject to an invariant is hidden from the user. State is accessed via member functions. 
  
+### Memory Management
+ * At least two variables are defined as references, or two functions use pass-by-reference in the project code.
+ * For all classes, if any one of the copy constructor, copy assignment operator, move constructor, move assignment operator, and destructor are defined, then all of these functions are defined.
+ * For classes with move constructors, the project returns objects of that class by value, and relies on the move constructor, instead of copying the object.
+ * The project uses at least one smart pointer: unique_ptr, shared_ptr, or weak_ptr. The project does not use raw pointers.
  
