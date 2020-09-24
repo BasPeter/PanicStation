@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/root/Desktop/PanicStation/build",
-  "command": "/usr/bin/g++-7    -g   -o CMakeFiles/panic.dir/main.cpp.o -c /root/Desktop/PanicStation/main.cpp",
-  "file": "/root/Desktop/PanicStation/main.cpp"
-}
-]

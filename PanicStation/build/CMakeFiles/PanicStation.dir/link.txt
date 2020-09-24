@@ -1,1 +1,0 @@
-/usr/bin/g++-7  -g   CMakeFiles/PanicStation.dir/main.cpp.o CMakeFiles/PanicStation.dir/Game.cpp.o CMakeFiles/PanicStation.dir/Controller.cpp.o CMakeFiles/PanicStation.dir/Renderer.cpp.o CMakeFiles/PanicStation.dir/Node.cpp.o  -o PanicStation -L/usr/lib/x86_64-linux-gnu  -lSDL2 /usr/lib/x86_64-linux-gnu/libSDL2_image.so 

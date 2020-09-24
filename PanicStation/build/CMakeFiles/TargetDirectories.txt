@@ -1,3 +1,0 @@
-/root/Desktop/PanicStation/PanicStation/build/CMakeFiles/rebuild_cache.dir
-/root/Desktop/PanicStation/PanicStation/build/CMakeFiles/PanicStation.dir
-/root/Desktop/PanicStation/PanicStation/build/CMakeFiles/edit_cache.dir
