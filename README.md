@@ -9,10 +9,6 @@ This trainline consist of nodes. Once you reach the goal the program closes and 
 
 Building a node costs money (of course), the amount of money is based on the height of the node (is it on a mountain or in a hill), the distance from the last node and the difference in height between those two.
 
-
-
-## Dependencies for Running Locally
-
 ## Dependencies for Running Locally
 * cmake >= 3.7
   * All OSes: [click here for installation instructions](https://cmake.org/install/)
