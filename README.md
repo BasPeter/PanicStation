@@ -1,4 +1,5 @@
 # Panic Station: A small game concept for the Udacity C++ ND
+## Capstone Option 1 - Video game
 
 This is far from a finished game, but rather a small concept. Since it shows my ability to code using C++ I think it is sufficient as the Capstone project for the C++ NanoDegree
 
@@ -8,6 +9,10 @@ In this game you have to build a trainline from the bottom of an island to the t
 This trainline consist of nodes. Once you reach the goal the program closes and you see the cost of your trainline.
 
 Building a node costs money (of course), the amount of money is based on the height of the node (is it on a mountain or in a hill), the distance from the last node and the difference in height between those two.
+
+## Files and Classes
+
+
 
 ## Dependencies for Running Locally
 * cmake >= 3.7
@@ -35,3 +40,30 @@ Go to PanicStation Folder
 2. cd build/
 3. cmake ..
 4. make
+
+## Udacity Meeting Specifications
+
+### README
+ * README is included
+ * Installation instructions for cross platform installation
+ * Submitted as markdown
+ 
+ * README describes chosen project
+ * README describes file and class structure
+ * README indicates rubric points adressed
+ 
+### Compiling and testing
+ * The project compiles and runs without errors
+ * The project builds using cmake and make
+ 
+### Loops, Functions, IO
+ * The projects is structured into classes and functions
+ 
+### OOP
+ * The project is organized into classes with attributes and methods
+ * All class data members are explicitly specified as public, private or protected
+ * All class members that are set to argument values are initialized through member initialization lists.
+ * All class member functions document their effects, either through function names, comments, or formal documentation. Member functions do not change program state in undocumented ways.
+ * Appropriate data and functions are grouped into classes. Member data that is subject to an invariant is hidden from the user. State is accessed via member functions. 
+ 
+ 
