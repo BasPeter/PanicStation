@@ -11,6 +11,7 @@
 
 #include <stdio.h>
 #include <vector>
+#include <memory>
 #include <SDL2/SDL.h>
 
 class Node

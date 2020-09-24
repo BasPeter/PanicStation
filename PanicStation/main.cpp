@@ -9,7 +9,6 @@
 #include "Game.hpp"
 #include "Controller.hpp"
 #include "Renderer.hpp"
-
 #include "Node.hpp"
 
 int main(int argc, const char * argv[]) {

@@ -11,8 +11,9 @@
 
 #include <stdio.h>
 #include <iostream>
+#include <memory>
 #include <SDL2/SDL.h>
-#include <SDL2_image/SDL_image.h>
+#include <SDL2/SDL_image.h>
 #include "Node.hpp"
 
 class Renderer
@@ -28,8 +29,8 @@ private:
     
     SDL_Window *_sdl_window;
     SDL_Renderer *_sdl_renderer;
-    SDL_Texture * _background_texture;
-    SDL_Surface * _heightmap_surface;
+    SDL_Texture * _background_texture = NULL;
+    SDL_Surface * _heightmap_surface = NULL;
     
     const std::size_t _screen_width;
     const std::size_t _screen_height;

@@ -42,13 +42,19 @@ Renderer::Renderer(const std::size_t screen_width, const std::size_t screen_heig
     // Load Background image
     _background_texture = LoadTexture("Assets/BG_Color.jpg");
     
-    _heightmap_surface = IMG_Load("Assets/BG_Height_map.jpg");
+    _heightmap_surface = IMG_Load("Assets/BG_Height_Map.jpg");
+    if (_heightmap_surface == NULL) {
+        std::cout << "Could not load heightmap" << std::endl;
+        std::cout << IMG_GetError() << std::endl;
+    }
     
 }
 
 Renderer::~Renderer() {
     
     SDL_DestroyTexture(_background_texture);
+
+    SDL_FreeSurface(_heightmap_surface);
     
     SDL_DestroyWindow(_sdl_window);
     SDL_Quit();
@@ -127,13 +133,14 @@ void Renderer::Render(std::shared_ptr<Node> currentNode, std::vector<std::shared
 
 void Renderer::RenderPointer(int x, int y, std::shared_ptr<Node> node) {
     int distance = node->getDistanceFromNode(x, y);
-    auto [node_x, node_y] = node->getPosition();
+    // auto [node_x, node_y] = node->getPosition();
+    int node_x = node->getPosition().x;
+    int node_y = node->getPosition().y;
     if ((distance < 25 || distance > 75) || getReadableRGB(x, y).r == 0) {
         SDL_SetRenderDrawColor(_sdl_renderer, 0xFF, 0x00, 0x00, 0xFF);
     } else {
         SDL_SetRenderDrawColor(_sdl_renderer, 0x00, 0xFF, 0x00, 0xFF);
     }
-    
     SDL_RenderDrawLine(_sdl_renderer, x, y, node_x, node_y);
 }
 
@@ -186,7 +193,7 @@ Uint32 Renderer::getPixel(int x, int y) {
     }
 
 SDL_Color Renderer::getReadableRGB(int x, int y) {
-    SDL_Color rgb;
+    SDL_Color rgb = SDL_Color();
     SDL_GetRGB(getPixel(x, y), _heightmap_surface->format, &rgb.r, &rgb.g, &rgb.b);
     return rgb;
 }

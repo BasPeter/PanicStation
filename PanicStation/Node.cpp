@@ -11,8 +11,6 @@
 #include <algorithm>
 #include <cmath>
 
-//std::shared_ptr<std::vector<Node>> Node::_nodes = std::make_shared<std::vector<Node>>();
-
 Node::Node(int x, int y, int height): _position{x, y}, _height(height)
 {
 //    std::cout << "Node Contructor Called: " << this << std::endl;

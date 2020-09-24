@@ -11,6 +11,7 @@
 
 #include <stdio.h>
 #include <SDL2/SDL.h>
+#include <memory>
 #include "Node.hpp"
 #include "Renderer.hpp"
 
