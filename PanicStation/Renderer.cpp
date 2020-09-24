@@ -43,8 +43,8 @@ Renderer::Renderer(const std::size_t screen_width, const std::size_t screen_heig
     _background_texture = LoadTexture("Assets/BG_Color.jpg");
     
     _heightmap_surface = IMG_Load("Assets/BG_Height_Map.jpg");
-    if (_heightmap_surface == NULL) {
-        std::cout << "Could not load heightmap" << std::endl;
+    if (_background_texture == NULL || _heightmap_surface == NULL) {
+        std::cout << "Could not load map" << std::endl;
         std::cout << IMG_GetError() << std::endl;
     }
     
